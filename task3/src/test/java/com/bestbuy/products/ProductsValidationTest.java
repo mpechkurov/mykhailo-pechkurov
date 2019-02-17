@@ -54,7 +54,7 @@ public class ProductsValidationTest extends TestBase {
     @Test
     public void createProductExtraFieldValidationTest() {
         setUpMinimalCorrectProduct(requestParams);
-        requestParams.put("wrongfireld", "someValue");
+        requestParams.put("wrongField", "someValue");
 
         given()
             .contentType(JSON)

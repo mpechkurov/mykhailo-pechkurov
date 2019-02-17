@@ -1,6 +1,5 @@
 package com.bestbuy.products;
 
-import org.apache.http.HttpStatus;
 import org.json.JSONObject;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -9,7 +8,7 @@ import org.junit.Test;
 import com.bestbuy.TestBase;
 
 import static io.restassured.RestAssured.when;
-import static org.apache.http.HttpStatus.*;
+import static org.apache.http.HttpStatus.SC_OK;
 import static org.hamcrest.Matchers.equalTo;
 import static org.hamcrest.Matchers.notNullValue;
 
